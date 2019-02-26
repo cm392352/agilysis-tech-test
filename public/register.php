@@ -3,7 +3,7 @@
 <head>
 <   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>MyWebApp - Login</title>
+    <title>MyWebApp - Register</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
@@ -11,8 +11,6 @@
 body {
     font-family: "Lato", sans-serif;
 }
-
-
 
 .main-head{
     height: 150px;
@@ -37,11 +35,7 @@ body {
 }
 
 @media screen and (max-width: 450px) {
-    .login-form{
-        margin-top: 10%;
-    }
-
-    .register-form{
+    .reg-form{
         margin-top: 10%;
     }
 }
@@ -59,23 +53,19 @@ body {
         left: 0;
     }
 
-    .login-form{
-        margin-top: 80%;
-    }
-
-    .register-form{
-        margin-top: 20%;
+    .reg-form{
+        margin-top: 45%;
     }
 }
 
 
-.login-main-text{
+.reg-main-text{
     margin-top: 20%;
     padding: 60px;
     color: #fff;
 }
 
-.login-main-text h2{
+.reg-main-text h2{
     font-weight: 300;
 }
 
@@ -89,25 +79,37 @@ body {
 <body>
 
     <div class="sidenav">
-         <div class="login-main-text">
-            <h2>Application<br> Login Page</h2>
-            <p>Login or register from here to access your dashboard.</p>
+         <div class="reg-main-text">
+            <h2>Application<br> Registration Page</h2>
+            <p>Register to access your dashboard.</p>
          </div>
       </div>
       <div class="main">
          <div class="col-md-6 col-sm-12">
-            <div class="login-form">
+            <div class="reg-form">
                <form>
                   <div class="form-group">
-                     <label for="EmailAddress">Email Address</label>
-                     <input type="text" id="EmailAddress" class="form-control" placeholder="Email Address">
+                     <label for="firstname">First name</label>
+                     <input type="text" id="firstname" class="form-control" placeholder="First name">
                   </div>
                   <div class="form-group">
-                     <label>Password</label>
-                     <input type="password" id="Password" class="form-control" placeholder="Password">
+                     <label for="surname">Surname</label>
+                     <input type="text" id="surname" class="form-control" placeholder="Surname">
                   </div>
-                  <button type="submit" class="btn btn-black">Login</button>
-                  <a href="register.php" class="btn btn-secondary">Register</a>
+                  <div class="form-group">
+                     <label for="emailAddress">Email Address</label>
+                     <input type="text" id="emailAddress" class="form-control" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                     <label for="password">Password</label>
+                     <input type="password" id="password" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                     <label for="confirmPassword">Confirm Password</label>
+                     <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password">
+                  </div>
+                  <a href="index.php" class="btn btn-secondary">Cancel</a>
+                  <button type="submit" class="btn btn-black">Register</button>
                </form>
             </div>
          </div>

@@ -1,2 +1,4 @@
 
 public/web\.config
+
+tests/\.phpunit\.result\.cache
