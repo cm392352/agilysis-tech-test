@@ -1,0 +1,5 @@
+[26-Feb-2019 09:53:19 UTC] PHP Warning:  include(..\classes\ArrayProductGenerator.php): failed to open stream: No such file or directory in C:\Users\chris\source\repos\agilysis-tech-test\tests\ProductOfArrayShould.php on line 3
+[26-Feb-2019 09:53:19 UTC] PHP Warning:  include(): Failed opening '..\classes\ArrayProductGenerator.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\chris\source\repos\agilysis-tech-test\tests\ProductOfArrayShould.php on line 3
+[26-Feb-2019 09:53:35 UTC] PHP Warning:  include(..\classes\ArrayProductGenerator.php): failed to open stream: No such file or directory in C:\Users\chris\source\repos\agilysis-tech-test\tests\ProductOfArrayShould.php on line 3
+[26-Feb-2019 09:53:35 UTC] PHP Warning:  include(): Failed opening '..\classes\ArrayProductGenerator.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\chris\source\repos\agilysis-tech-test\tests\ProductOfArrayShould.php on line 3
+[26-Feb-2019 09:54:08 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\Users\chris\source\repos\agilysis-tech-test\src\ArrayProductGenerator.php on line 2

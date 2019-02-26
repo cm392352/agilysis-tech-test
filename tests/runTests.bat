@@ -1,0 +1,1 @@
+php ..\tools\phpunit-8.0.4.phar --verbose ProductOfArrayShould
