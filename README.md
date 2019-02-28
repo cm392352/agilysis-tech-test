@@ -2,7 +2,9 @@
 Welome to the Agilysis technical test.
 
 ## Instructions
-Please clone this to your own repo before you begin. 
+Please fork this repo to your own account before you begin. 
+
+When you are ready for your solution to be reviewed please send us a link to your public repo. 
 
 You will need PHP 7.3 installed on your local machine as well as a Web server (IIS or Apache) to run the Web application. 
 
