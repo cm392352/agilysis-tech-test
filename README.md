@@ -14,7 +14,7 @@ You are free to use any tools that you wish to, but please do not use any PHP fr
 * HTML5.
 * CSS3.
 * JavaScript.
-* SQL (MySQL). 
+* SQL (MySQL or PostgreSQL). 
 * Unit testing.
 * Git and source control principles.
 * Basic undertanding of algorithms.
